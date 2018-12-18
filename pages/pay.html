@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>Prepd</title>
+    <link rel="stylesheet" href="../_sass/style.css">    
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+        <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Paypal 
+                            <div class="display-td">
+                            <img class="img-fluid" src="../_sass/images/paypal.png" alt="paypal">
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                        <form>
+                                <div class="form-group">
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-group form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Keep me logged in.</label>
+                                </div>
+                                <div class="col-md-12">
+                                        <button class="subscribe btn btn-success btn-lg btn-block" type="button">LOG IN AND PAY</button>
+                                    </div>
+                              </form>
+                            </div>
+                </div>
+              </div>
+            </div>
+            
+            
+    
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Credit/Debit Card
+                        <div class="display-td">
+                        <img class="img-fluid" src="../_sass/images/maestro.png" alt="maestro">
+                        <img class="img-fluid" src="../_sass/images/mastercard.png" alt="mastercard">
+                        <img class="img-fluid" src="../_sass/images/visa.png" alt="visa">
+                      </div>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                            <div class="row">
+                                    <div class="col-xs-7 col-md-7">
+                                        <div class="form-group">
+                                            <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+                                            <input 
+                                                type="tel" 
+                                                class="form-control" 
+                                                name="cardExpiry"
+                                                placeholder="MM / YY"
+                                                autocomplete="cc-exp"
+                                                required 
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-5 col-md-5 pull-right">
+                                        <div class="form-group">
+                                            <label for="cardCVC">CV CODE</label>
+                                            <input 
+                                                type="tel" 
+                                                class="form-control"
+                                                name="cardCVC"
+                                                placeholder="CVC"
+                                                autocomplete="cc-csc"
+                                                required
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button class="subscribe btn btn-success btn-lg btn-block" type="button">FINISH AND PAY</button>
+                                    </div>
+                                </div>
+                                <div class="row" style="display:none;">
+                                    <div class="col-md-12">
+                                        <p class="payment-errors"></p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                  </div>
+                </div>
+</body>
