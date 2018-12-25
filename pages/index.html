@@ -4,12 +4,105 @@ permalink: /index
 published: true
 # Custom Page Variables
 # ─────────────────────
-title: Bootstrap 4.1 &mdash; Voorbeeld
+title: Home
 ---
-<div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-</div>
-<div class="container">
-    <a class="btn btn-primary" href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap 4.1 documentation</a>
-    <a class="btn btn-primary" href="https://jekyllrb.com/docs/">Jekyll documentation</a>
-</div>
+
+    <div class="logoround">
+                 <img class="img-fluid" src="../_sass/images/logoround.png" alt="">
+             </div>
+             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                 <div class="carousel-inner">
+                   <div class="carousel-item active">
+                     <img class="d-block w-100" src="../images/home/carousel/prepd1.jpg" alt="First slide">
+                   </div>
+                   <div class="carousel-item">
+                     <img class="d-block w-100" src="../images/home/carousel/prepd2.jpg" alt="Second slide">
+                   </div>
+                   <div class="carousel-item">
+                     <img class="d-block w-100" src="../images/home/carousel/prepd3.png" alt="Third slide">
+                   </div>
+                 </div>
+                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Previous</span>
+                 </a>
+                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Next</span>
+                 </a>
+               </div>
+           
+             
+  
+   <div>
+
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+                   <ul class="navbar-nav ml-auto text-center">
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Prepd Pack</a>
+                       </li>
+                       <li class="nav-item mx-5">
+                           <a class="nav-link" href="#">Accesoires</a>
+                       </li>
+                   </ul>
+               </div>
+               <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+                   <a class="mx-5" href="#">
+                       <img src="../_sass/images/logoround.png" width="30%" class="rounded-circle">
+                   </a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+               </div>
+               <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+                   <ul class="navbar-nav mr-auto text-center">
+                       <li class="nav-item mx-5">
+                           <a class="nav-link" href="#">About</a>
+                       </li>
+                       <li class="nav-item mx-5">
+                           <a class="nav-link" href="#">Contact</a>
+                       </li>
+                   </ul>
+               </div>
+           </nav>
+
+
+           
+
+      
+   </div>
+   <div class="container"> 
+     <div class="row"> 
+        <div class="col-md-6"><img src="../images/home/gif.gif" height="600px" width="600px" class="img-fluid" alt="gif"></div>
+        <div id="info" class="col">
+           <h2>Your lunch your way.</h2>
+           <p>Flexible to suit your changing daily needs, the premium Prepd Containers can be arranged in multiple configurations within the Prepd Pack perfectly.</p></div> 
+     </div> 
+  </div>
+
+  <div class="container"> 
+     <div class="row"> 
+        <div class="col-md-6"> <img src="../images/home/containers.png" width="100%" class="img-fluid" alt="containers"></div>
+        <div id="info" class="col">
+           <h2>Always be Prepd.</h2>
+           <p>Have your lunch ready to go when you are — order multiple sets of containers and prep ahead for as many meals as you want. Save time for other things, like enjoying your morning coffee.</p></div> 
+     </div> 
+  </div>
+
+  <div class="container"> 
+     <div class="row"> 
+        <div class="col-md-6">  <img src="../images/home/app.png" width="100%" class="img-fluid" alt="app"></div>
+        <div id="info" class="col">
+           <h2>Stay on top of what you eat.</h2>
+           <p>Prepd recipes are designed to fit the containers perfectly, so once you are done eating simply tap add to health and all of your nutrition data will immediately be added to your phone’s health app.</p></div> 
+     </div> 
+  </div>
+ 
+  
+         <div class="img-wrapper">
+               <img class="img-responsive" src="../images/home/prepdholden.png">
+               <div class="img-overlay">
+                 <button id="order-btn" class="btn btn-md btn-success">Order now</button>
+               </div>
+           </div>

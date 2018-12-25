@@ -4,14 +4,14 @@
 
 # Site settings
 # ─────────────
-baseurl: /1819-nmd2-code-jekyll # the subpath of your site, e.g. /blog
+baseurl: /1819-crowdfunding-eldinhairic # the subpath of your site, e.g. /blog
 # host   : 127.0.0.1
 # port   : 4000
 
 # Custom Site variables
 # ─────────────────────
 show-style-guide: true # Show style guide in footer.
-title: New Media Development II
+title: Prepd
 
 # Build settings
 # ──────────────
