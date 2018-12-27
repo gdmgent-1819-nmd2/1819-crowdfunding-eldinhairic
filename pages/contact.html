@@ -7,27 +7,31 @@ published: true
 title: Contact
 ---
 
-<body>
-    
-
-        <div>
-                <h1>CONTACT</h1>
-                <form action="">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First name">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last name">
+<div id="contact-area" class="container">
+        <h1>CONTACT</h1>
+        <div class="row">
+          <div id="contact" class="col">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First name">
+          </div>
+          <div id="contact" class="col">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last name">
+          </div>
+        </div>
+        <div class="row">
+            <div id="contact" class="col">
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject">
-                    <label for="exampleFormControlTextarea1" placeholder="Message"></label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    <div class="col-md-4 center-block">
-            <button id="singlebutton" name="singlebutton" class="btn btn-primary center-block">
-                Next Step!
-             </button>
-                </form>
             </div>
-
-
-            
-
-
-</body>
+        </div>
+        <div class="row">
+                <div id="contact" class="col">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject">
+                </div>
+            </div>
+            <div class="row">
+                    <div id="contact" class="col">
+                            <label for="exampleFormControlTextarea1" placeholder="Message"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <a id="button-login" href="../pages/login kopie.html" class="btn btn-primary btn-lg btn-block" role="button" style="float: right;">SUBMIT</a>
+</div>

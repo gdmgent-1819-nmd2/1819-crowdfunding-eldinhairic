@@ -1,6 +1,7 @@
 :root{
 /* text opties */
     --main-font:Arial,sans-serif;
+    --second-font: sans-serif;
     --title-size: 20px;/* titels */
     --body-size: 10px;/* body */
     --option-size: 5px;/* footer text */
@@ -16,6 +17,8 @@
 
     --border-border-radius: 10px;
 }
+
+
 .jumbotron-fluid{
 
 }
@@ -105,11 +108,18 @@ a{
     background-color: var(--login-color);
 }
 #acces-sleeve{
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: var(--border-border-radius);
     padding: 30px;
     background-color: var(--login-color);
 }
+#acces:hover{
+    background-color: whitesmoke;
+}
+#acces-sleeve:hover{
+    background-color: whitesmoke;
+}
+
 #add{
     border: none;
     border-radius: var(--border-border-radius);
@@ -119,7 +129,7 @@ a{
     background-color: var(--primary-color);
 }
 #login{
-    margin-top: 150px;
+    margin-top: 50px;
     background-color: var(--login-color);
     border-radius: var(--border-border-radius);
     padding-bottom: 15px;
@@ -230,3 +240,82 @@ input {
     border-color: hsl(0, 0%, 40%);
     box-shadow: 0 0 0.5rem hsl(0, 0%, 20%);
   }
+/* login page */
+
+  #login-info{
+    font-size: 9pt;
+  }
+  #button-login{
+      margin-top: 20px;
+      border: none;
+    border-radius: var(--border-border-radius);
+    background-color: var(--main-color);
+  }
+  #button-login:hover{
+    background-color: var(--primary-color);
+}
+
+/* contact page */
+#contact{
+    margin-top: 10px;
+}
+#contact-area{
+    margin-top: 50px;
+    background-color: var(--login-color);
+    border-radius: var(--border-border-radius);
+    padding-bottom: 15px;
+    padding-top: 15px;  
+}
+/* thank you page */
+#thankyou-container{
+    margin-top: 50px;
+}
+/* pay page */
+#pay{
+    margin-top: 50px;
+    background-color: var(--login-color);
+    border-radius: var(--border-border-radius);
+    padding-bottom: 15px;
+    padding-top: 15px; 
+}
+#accordion{
+    background-color: var(--login-color);
+}
+.card{
+    background-color: var(--login-color);
+    border: 20px;
+}
+.card:hover{
+    background-color: whitesmoke;
+}
+.payment{
+    float: right;
+}
+/* faq page */
+#quest{ 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--input-color);
+}
+#quest:hover{
+    color: var(--primary-color);
+}
+.faq-info{
+    font-family: var(--second-font);
+    font-size: 13px;
+}
+#page-title{
+    font-family: var(--second-font);
+    font-weight: bolder;
+    font-size: 50px;
+}
+.privacy{
+    font-size: 20px;
+}
+.card-body{
+    color: var(--input-color);
+}
+strong{
+    font-size: 15px;
+}
