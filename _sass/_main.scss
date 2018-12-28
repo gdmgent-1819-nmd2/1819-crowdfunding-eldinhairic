@@ -256,7 +256,12 @@
       #button-login:hover{
         background-color: var(--primary-color);
     }
-    
+    #login{
+        margin-bottom: 50px;
+    }
+    .form-control{
+        background-color: grey;
+    }
     /* contact page */
     #contact{
         margin-top: 10px;
