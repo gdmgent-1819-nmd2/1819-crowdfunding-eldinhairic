@@ -7,7 +7,7 @@ published: true
 title: Home
 ---
 <div class="container">
-            <video class="img-responsive" src="../images/about/video.mp4" autoplay="autoplay" controls="false">
+            <video class="img-responsive" src="{{ site.baseurl }}/images/about/video.mp4" autoplay="loop" controls="false">
     </div>
 
    <div class="container"> 
@@ -41,6 +41,6 @@ title: Home
          <div class="img-wrapper">
                <img class="img-responsive" src="{{ site.baseurl }}/images/home/prepdholden.png">
                <div class="img-overlay">
-                 <button id="order-btn" class="btn btn-md btn-success">Order now</button>
+                 <a id="order-btn" href="{{ site.baseurl }}/login.html"  class="btn btn-info" role="button">Order Now</a>
                </div>
            </div>
