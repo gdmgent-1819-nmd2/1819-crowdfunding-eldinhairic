@@ -112,7 +112,6 @@
         border-radius: var(--border-border-radius);
         padding: 30px;
         background-color: var(--login-color);
-        margin-bottom: 50px;
     }
     #acces:hover{
         background-color: whitesmoke;
@@ -285,7 +284,9 @@
     #login{
         margin-bottom: 50px;
     }
-    
+    .form-control{
+        background-color: whitesmoke;
+    }
     /* contact page */
     #contact{
         margin-top: 10px;
@@ -295,8 +296,7 @@
         background-color: var(--login-color);
         border-radius: var(--border-border-radius);
         padding-bottom: 15px;
-        padding-top: 15px; 
-        margin-bottom: 50px; 
+        padding-top: 15px;  
     }
     /* thank you page */
     #thankyou-container{
@@ -373,4 +373,62 @@
     #accordion-style-1{
         margin-bottom: 50px;
         margin-top: 50px;
+    }
+   
+    }
+    /* app page */
+    #download{
+        margin-bottom: 50px;
+    }
+    #app-title{
+font-family: var(--second-font);
+font-weight: normal;
+font-size: 50px;
+margin: 20px;
+    }
+    #app-sub{
+        font-family: var(--second-font);
+        font-weight: normal;
+        font-size: 25px; 
+        margin: 20px;   
+    }
+    #app-text{
+        font-family: var(--second-font);
+font-weight: lighter;
+font-size: 15px;
+    }
+    /* packs page */
+    #bird-btn{
+        border: none;
+        border-radius: var(--border-border-radius);
+        background-color: var(--main-color); 
+    }
+    #bird-btn:hover{
+        background-color: var(--primary-color);
+    }
+    #bird-btn-side{
+        border: none;
+        border-radius: var(--border-border-radius);
+        background-color: var(--main-color); 
+        margin-top: 40px;
+    }
+    #bird-btn-side:hover{
+        background-color: var(--primary-color);
+    }
+    .lead{
+        font-family: var(--second-font);
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    #bird-head{
+        font-family: var(--second-font);
+        font-weight: normal;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    #early-bird-cards{
+        margin-bottom: 50px;
+    }
+    .mail{
+        margin: 30px;
     }
