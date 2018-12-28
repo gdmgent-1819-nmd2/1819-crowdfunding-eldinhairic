@@ -112,6 +112,7 @@
         border-radius: var(--border-border-radius);
         padding: 30px;
         background-color: var(--login-color);
+        margin-bottom: 50px;
     }
     #acces:hover{
         background-color: whitesmoke;
@@ -284,9 +285,7 @@
     #login{
         margin-bottom: 50px;
     }
-    .form-control{
-        background-color: whitesmoke;
-    }
+    
     /* contact page */
     #contact{
         margin-top: 10px;
@@ -296,7 +295,8 @@
         background-color: var(--login-color);
         border-radius: var(--border-border-radius);
         padding-bottom: 15px;
-        padding-top: 15px;  
+        padding-top: 15px; 
+        margin-bottom: 50px; 
     }
     /* thank you page */
     #thankyou-container{
