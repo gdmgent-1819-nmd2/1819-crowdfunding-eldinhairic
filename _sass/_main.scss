@@ -119,7 +119,7 @@
     #acces-sleeve:hover{
         background-color: whitesmoke;
     }
-    --prepdpack page
+    /* pack page */
     #add{
         border: none;
         border-radius: var(--border-border-radius);
@@ -128,27 +128,39 @@
     #add:hover{
         background-color: var(--primary-color);
     }
-    .pack-title{
+    #pack-title{
         font-family: var(--second-font);
         font-weight: normal;
         font-size: 20px;
     }
-    .pack-price{
+    #pack-price{
         font-family: var(--second-font);
         font-weight: bold;
         font-size: 20px;
     }
-    .pack-info{
+    #pack-info{
         font-family: var(--second-font);
         font-weight: lighter;
         font-size: 15px;
     }
-    .article-title{
+    #add-pack{
+        padding: 30px 15px;
+        border: none;
+        border-radius: var(--border-border-radius);
+        background-color: var(--main-color);
+    }
+    #add-pack:hover{
+        background-color: var(--primary-color);
+    }
+    #article-title{
         font-family: var(--second-font);
         font-weight: normal;
         font-size: 18px;
     }
-    .article-text{
+    #pack-magneticset{
+        margin-bottom: 50px;
+    }
+    #article-text{
         font-family: var(--second-font);
         font-weight: lighter;
         font-size: 15px;
@@ -397,7 +409,7 @@ margin: 20px;
 font-weight: lighter;
 font-size: 15px;
     }
-    /* packs page */
+    /* earlybird page */
     #bird-btn{
         border: none;
         border-radius: var(--border-border-radius);
